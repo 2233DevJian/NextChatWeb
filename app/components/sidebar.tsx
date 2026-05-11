@@ -250,11 +250,17 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="FlexibleAI Chat    Build by NextChat."
-        subTitle="Fully optimized AI assistant."
-        logo={<ChatGptIcon />}
-        shouldNarrow={shouldNarrow}
-      >
+  title={
+    <>
+      FlexibleAI Chat
+      <br />
+      Build by NextChat.
+    </>
+  }
+  subTitle="Fully optimized AI assistant."
+  logo={<ChatGptIcon />}
+  shouldNarrow={shouldNarrow}
+/>
         <div className={styles["sidebar-header-bar"]}>
           <IconButton
             icon={<MaskIcon />}
