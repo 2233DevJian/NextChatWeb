@@ -9,9 +9,10 @@ const cn = {
   Error: {
   Unauthorized: isApp
     ? ``
-    : `😆 对话遇到了一些问题，不用慌:
+    : `😆 首次访问，请跟随指引完成操作:
           如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问秘钥 🔑
-          如果你想消耗自己的 API 资源，点击[这里](/#/settings)修改设置 ⚙️`,
+          如果你想消耗自己的 API 资源，点击[这里](/#/settings)修改设置 ⚙️
+          感谢您使用FlexibleAI，此版本由github@DevJian部署，有任何问题请移步github comments！`,
 },
   Auth: {
     Return: "返回",
